@@ -1,4 +1,0 @@
-{
-    "mongoURI" : "mongodb+srv://nomansible69:sible123@cluster0.l09rdlt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
- "jwtToken" : "mysecrettoken"
-}
