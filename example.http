@@ -1,0 +1,42 @@
+
+### Get auth
+GET http://localhost:5000/api/auth
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjg3NTJjOWRmODJkOGQ4NGRkMDg4MDk2In0sImlhdCI6MTc1MjUwOTU5NywiZXhwIjoxNzUyODY5NTk3fQ.rqGox_v92sCNUPV8QBvZ9E5pY1rEFWcBPDH8Czz6MRU
+
+### Login user
+POST http://localhost:5000/api/auth
+Content-Type: application/json
+
+{
+  "email": "mail2shible@gmail.com",
+  "password": "123456"
+}
+### Get posts
+GET http://localhost:5000/api/posts
+
+
+### Register user
+POST http://localhost:5000/api/users
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "nomansible69@gmail.com",
+  "password": "123456"
+}
+### New user
+POST http://localhost:5000/api/users
+Content-Type: application/json
+
+{
+  "name": "John Done",
+  "email": "mail2shible@gmail.com",
+  "password": "123456"
+}
+
+
+
+### Get profile
+GET http://localhost:5000/api/profile
+
+
